@@ -4,7 +4,7 @@ A daily strategic briefing focused on enterprise AI, AI agents, Forward Deployed
 
 ## Publishing schedule
 
-Daily at **08:30 Singapore Time (SGT)**.
+Published **daily in the Singapore morning (SGT)**.
 
 ## Repository structure
 
