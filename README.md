@@ -37,3 +37,22 @@ Facts are kept separate from interpretation. Primary sources and high-quality re
 ---
 
 Generated with ChatGPT and reviewed as a strategic research briefing, not investment, legal, or regulatory advice.
+
+
+## Blog view
+
+This repository includes a reader-friendly web interface for the daily briefings.
+
+Once GitHub Pages is enabled for the `main` branch from the repository root, the site will be available at:
+
+**https://liubiedi.github.io/AI-daily-news-for-cloud-professional-services/**
+
+The site automatically reads the dated Markdown files from `news/`, shows the newest briefing on the homepage, and provides a recent-editions archive and previous/next navigation.
+
+### One-time GitHub Pages setup
+
+In the repository, open:
+
+**Settings → Pages → Build and deployment → Deploy from a branch → main → /(root) → Save**
+
+No daily website-generation step is required after that. New `news/YYYY-MM-DD.md` files will appear automatically.
