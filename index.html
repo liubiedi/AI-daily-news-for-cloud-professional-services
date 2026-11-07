@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="Daily strategic briefing on enterprise AI, AI agents, FDE, China tech, Singapore/SEA, and cloud." />
+  <title>Enterprise AI Strategic Daily Brief</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="./">
+        <span class="brand-mark">EAI</span>
+        <span>
+          <strong>Enterprise AI Strategic Brief</strong>
+          <small>AI agents · FDE · Cloud · Singapore/SEA · China</small>
+        </span>
+      </a>
+      <nav class="top-nav">
+        <button id="latestBtn" class="nav-btn">Latest</button>
+        <a class="nav-link" href="https://github.com/liubiedi/AI-daily-news-for-cloud-professional-services" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="shell layout">
+    <aside class="sidebar">
+      <div class="side-card">
+        <label for="dateSelect">Edition</label>
+        <select id="dateSelect" aria-label="Choose briefing date"></select>
+        <div class="side-actions">
+          <button id="copyLinkBtn">Copy link</button>
+          <a id="rawLink" target="_blank" rel="noreferrer">Markdown</a>
+        </div>
+      </div>
+      <div class="side-card archive-card">
+        <div class="side-title">Recent editions</div>
+        <div id="archiveList" class="archive-list"></div>
+      </div>
+    </aside>
+
+    <section class="content-column">
+      <div id="status" class="status">Loading latest briefing…</div>
+      <article id="article" class="article"></article>
+      <div class="pager" id="pager" hidden>
+        <button id="newerBtn">← Newer</button>
+        <button id="olderBtn">Older →</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell">
+      Strategic research briefing. Facts and interpretation are separated in each edition.
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
